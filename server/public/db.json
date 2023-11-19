@@ -1,0 +1,84 @@
+{
+  "destinations": [
+    {
+      "name": "Grand Canyon, Arizona",
+      "season_to_visit": "Fall",
+      "history": "Formed by the Colorado River over millions of years.",
+      "things_to_do": ["Hiking", "River Rafting", "Helicopter Tours"],
+      "distance_from_airport": 7,
+      "food": "Southwestern cuisine"
+    },
+    {
+      "name": "Yellowstone National Park, Wyoming",
+      "season_to_visit": "Summer",
+      "history": "First national park in the world.",
+      "things_to_do": ["Wildlife Viewing", "Geothermal Features", "Hiking"],
+      "distance_from_airport": 5,
+      "food": "Local Bison dishes"
+    },
+    {
+      "name": "New York City, New York",
+      "season_to_visit": "Fall",
+      "history": "global hub for finance, culture, and fashion.",
+      "things_to_do": ["Times Square", "Central Park", "Broadway Shows"],
+      "distance_from_airport": 15,
+      "food": "Diverse international cuisine"
+    },
+    {
+      "name": "New Orleans, Louisiana",
+      "season_to_visit": "Spring",
+      "history": "Famous for Mardi Gras celebrations.",
+      "things_to_do": ["French Quarter", "Jazz Fest", "Creole Cuisine Tour"],
+      "distance_from_airport": 12,
+      "food": "Creole and Cajun dishes"
+    },
+    {
+      "name": "Yosemite National Park, California",
+      "season_to_visit": "Summer",
+      "history": "Famous for its waterfalls and giant sequoias.",
+      "things_to_do": ["Hiking", "Rock Climbing", "Photography"],
+      "distance_from_airport": 65,
+      "food": "Local California cuisine"
+    },
+    {
+      "name": "Miami, Florida",
+      "season_to_visit": "Winter",
+      "history": "Known for its beaches",
+      "things_to_do": ["South Beach", "Art Deco Historic District", "Little Havana"],
+      "distance_from_airport": 8,
+      "food": "Cuban and Latin American dishes"
+    },
+    {
+      "name": "Grand Teton National Park, Wyoming",
+      "season_to_visit": "Summer",
+      "history": "Known for its landscapes and wildlife.",
+      "things_to_do": ["Scenic Drives", "Wildlife Photography", "Hiking"],
+      "distance_from_airport": 9,
+      "food": "Local Wyoming cuisine"
+    },
+    {
+      "name": "Las Vegas, Nevada",
+      "season_to_visit": "Spring or Fall",
+      "history": "Famous for its entertainment, casinos, and vibrant nightlife.",
+      "things_to_do": ["The Strip", "Casino Shows", "Helicopter Tours"],
+      "distance_from_airport": 3,
+      "food": "Gourmet dining and buffets"
+    },
+    {
+      "name": "San Francisco, California",
+      "season_to_visit": "Fall",
+      "history": "Known for the Golden Gate Bridge.",
+      "things_to_do": ["Golden Gate Park", "Fisherman's Wharf", "Alcatraz Tour"],
+      "distance_from_airport": 13,
+      "food": "Seafood and international cuisine"
+    },
+    {
+      "name": "Chicago, Illinois",
+      "season_to_visit": "Spring or Fall",
+      "history": "Famous for its architecture and culture.",
+      "things_to_do": ["Millennium Park", "Art Institute of Chicago", "Navy Pier"],
+      "distance_from_airport": 18,
+      "food": "Deep-dish pizza and Chicago-style hot dogs"
+    }
+  ]
+}
