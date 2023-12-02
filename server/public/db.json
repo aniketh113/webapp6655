@@ -1,6 +1,7 @@
 {
-  "destinations": [
+  "places": [
     {
+      "id":1,
       "name": "Grand Canyon, Arizona",
       "season_to_visit": "Fall",
       "history": "Formed by the Colorado River over millions of years.",
@@ -9,6 +10,7 @@
       "food": "Southwestern cuisine"
     },
     {
+      "id":2,
       "name": "Yellowstone National Park, Wyoming",
       "season_to_visit": "Summer",
       "history": "First national park in the world.",
@@ -17,6 +19,7 @@
       "food": "Local Bison dishes"
     },
     {
+      "id":3,
       "name": "New York City, New York",
       "season_to_visit": "Fall",
       "history": "global hub for finance, culture, and fashion.",
@@ -25,6 +28,7 @@
       "food": "Diverse international cuisine"
     },
     {
+      "id":4,
       "name": "New Orleans, Louisiana",
       "season_to_visit": "Spring",
       "history": "Famous for Mardi Gras celebrations.",
@@ -33,6 +37,7 @@
       "food": "Creole and Cajun dishes"
     },
     {
+      "id":5,
       "name": "Yosemite National Park, California",
       "season_to_visit": "Summer",
       "history": "Famous for its waterfalls and giant sequoias.",
@@ -41,6 +46,7 @@
       "food": "Local California cuisine"
     },
     {
+      "id":6,
       "name": "Miami, Florida",
       "season_to_visit": "Winter",
       "history": "Known for its beaches",
@@ -49,6 +55,7 @@
       "food": "Cuban and Latin American dishes"
     },
     {
+      "id":7,
       "name": "Grand Teton National Park, Wyoming",
       "season_to_visit": "Summer",
       "history": "Known for its landscapes and wildlife.",
@@ -57,6 +64,7 @@
       "food": "Local Wyoming cuisine"
     },
     {
+      "id":8,
       "name": "Las Vegas, Nevada",
       "season_to_visit": "Spring or Fall",
       "history": "Famous for its entertainment, casinos, and vibrant nightlife.",
@@ -65,6 +73,7 @@
       "food": "Gourmet dining and buffets"
     },
     {
+      "id":9,
       "name": "San Francisco, California",
       "season_to_visit": "Fall",
       "history": "Known for the Golden Gate Bridge.",
@@ -73,6 +82,7 @@
       "food": "Seafood and international cuisine"
     },
     {
+      "id":10,
       "name": "Chicago, Illinois",
       "season_to_visit": "Spring or Fall",
       "history": "Famous for its architecture and culture.",
