@@ -1,5 +1,4 @@
-{
-  "places": [
+ [
     {
       "id":1,
       "name": "Grand Canyon, Arizona",
@@ -90,5 +89,4 @@
       "distance_from_airport": 18,
       "food": "Deep-dish pizza and Chicago-style hot dogs"
     }
-  ]
-}
+ ]
