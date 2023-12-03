@@ -1,4 +1,4 @@
-{"places": [{
+{{
     "id":1,
     "title": "Book #1 ---The Universe and Dr. Einstein",
     "year": 2005,
@@ -28,4 +28,5 @@
     "title": "Book #6 --- Adding Book 6",
     "year": 2017,
     "published": true
-}]}
+}
+}
