@@ -1,36 +1,52 @@
-const http = require('http');
-const fs = require('fs');
-const path = require('path')
+const http = require("http");
+const path = require("path");
+const fs = require("fs");
+const server = http.createServer((req, res) => {
 
-http.createServer((req,res)=>{
-    console.log(req.url)
-
-    if(req.url ==='/'){//home page
-        fs.readFile(path.join(__dirname,'public','index.html'),(err,content)=>{
-            if(err) throw err;
-            res.writeHead(200,{'Content-Type': 'text/html'})
-            res.end(content)
-        })
+    if (req.url === '/') {
     
-    }
-    else if (req.url==='/about'){
-        fs.readFile(path.join(__dirname,'public','about.html'),(err,content)=>{
-            if(err) throw err;
-            res.writeHead(200,{'Content-Type': 'text/html'})
-            res.end(content)
-        })
-    }
-    else if(req.url ==='/api')
+        fs.readFile(path.join(__dirname, 'public', 'index.html'),
+                    (err, content) => {
+                                    
+                                    if (err) throw err;
+                                    res.setHeader("Access-Control-Allow-Origin", "*")
+                                    res.writeHead(200, { 'Content-Type': 'text/html' });
+                                    res.end(content);
+                        }
+              );
+     }
+    else if (req.url === '/about') {
+        
+        fs.readFile(
+            path.join(__dirname, 'public', 'about.html'),
+                    (err, content) => {
+                                    
+                                    if (err) throw err;
+                                    res.setHeader("Access-Control-Allow-Origin", "*")
+                                    res.writeHead(200, { 'Content-Type': 'text/html' });
+                                    res.end(content);
+                        }
+              );
+     }
+    else if (req.url==='/api')
     {
-        fs.readFile(path.join(__dirname,'public','db.json'),(err,content)=>{
-            if(err) throw err;
-            res.writeHead(200,{'Content-Type': 'application/json'})
-            res.end(content)
-        })
+        fs.readFile(
+            path.join(__dirname, 'public', 'db.json'),'utf-8',
+                    (err, content) => {
+                                    
+                                    if (err) throw err;
+                                    res.setHeader("Access-Control-Allow-Origin", "*")
+                                    // Please note the content-type here is application/json
+                                    res.writeHead(200, { 'Content-Type': 'application/json' });
+                                    res.end(content);
+                        }
+              );
     }
-
     else{
-        res.end("<h1>404 Nothing is here </h1>")
+        res.end("<h1> 404 nothing is here</h1>");
     }
-   
-}).listen(6420,()=>console.log("Great my server is running on 6420"));
+});
+
+const PORT= process.env.PORT || 8881;
+
+server.listen(PORT,()=> console.log(`Great our server is running on port ${PORT} `));
